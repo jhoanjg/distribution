@@ -2,8 +2,8 @@
     "version": "1.0.0",
     "discord": {
         "clientId": "385581240906022916",
-        "smallImageText": "Mi Servidor",
-        "smallImageKey": "mi-servidor-icon"
+        "smallImageText": "Odyssey Launcher",
+        "smallImageKey": "seal-circle"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
@@ -11,20 +11,20 @@
     "rss": "https://minoticias.com/feed",
     "servers": [
         {
-            "id": "Demo",
-            "name": "Demo (Minecraft 1.20.4)",
-            "description": "Demo Running Minecraft 1.20.4 (Fabric v0.15.6)",
-            "icon": "https://miservidor.com/assets/server-icon.png",
+            "id": "odyssey_main",
+            "name": "Odyssey Server",
+            "description": "Official Odyssey Minecraft Server",
+            "icon": "https://raw.githubusercontent.com/jhoanjg/GalaxyLauncher/main/build/icon.png",
             "version": "1.0.0",
-            "address": "play.miservidor.com",
+            "address": "172.93.111.205:25509",
             "minecraftVersion": "1.20.4",
             "discord": {
-                "shortId": "Demo",
-                "largeImageText": "Demo Server",
-                "largeImageKey": "demo-large"
+                "shortId": "Odyssey",
+                "largeImageText": "Odyssey Server",
+                "largeImageKey": "server-odyssey"
             },
-            "mainServer": false,
-            "autoconnect": false,
+            "mainServer": true,
+            "autoconnect": true,
             "modules": [
                 {
                     "id": "net.fabricmc:fabric-loader:0.15.6",

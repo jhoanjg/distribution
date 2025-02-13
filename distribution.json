@@ -3,7 +3,7 @@
     "discord": {
         "clientId": "385581240906022916",
         "smallImageText": "Odyssey Launcher",
-        "smallImageKey": "seal-circle"
+        "smallImageKey": "SealCircle"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
@@ -92,8 +92,9 @@
                     "type": "FabricMod",
                     "required": true,
                     "artifact": {
-                        "path": "app/assets/mods/fabric-api-0.95.4+1.20.4.jar",
-                        "local": true
+                        "size": 1789047,
+                        "MD5": "7e31d615d26814db6d1f5c87c0e0bc98",
+                        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/RWxrN6XF/fabric-api-0.95.4%2B1.20.4.jar"
                     }
                 },
                 {
@@ -102,8 +103,9 @@
                     "type": "FabricMod",
                     "required": true,
                     "artifact": {
-                        "path": "app/assets/mods/sodium-fabric-mc1.20.4-0.5.8.jar",
-                        "local": true
+                        "size": 1457829,
+                        "MD5": "445b16b17e5a0a5c8c81e7e0a6773a7f",
+                        "url": "https://cdn.modrinth.com/data/AANobbMI/versions/4OZL6q9h/sodium-fabric-mc1.20.4-0.5.8.jar"
                     }
                 }
             ]

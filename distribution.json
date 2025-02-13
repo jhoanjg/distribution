@@ -3,7 +3,7 @@
     "discord": {
         "clientId": "385581240906022916",
         "smallImageText": "Odyssey Launcher",
-        "smallImageKey": "seal-circle"
+        "smallImageKey": "SealCircle"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
@@ -27,35 +27,13 @@
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.fabricmc:fabric-loader:0.15.6",
-                    "name": "Fabric Loader",
-                    "type": "Fabric",
+                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
+                    "name": "Minecraft Forge",
+                    "type": "ForgeHosted",
                     "artifact": {
-                        "size": 1196222,
-                        "MD5": "a43d5a142246801343b6cedef1c102c4",
-                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
-                    }
-                },
-                {
-                    "id": "net.fabricmc.fabric-api:fabric-api:0.95.4+1.20.4",
-                    "name": "Fabric API",
-                    "type": "FabricMod",
-                    "required": true,
-                    "artifact": {
-                        "size": 2051337,
-                        "MD5": "e4f5a1c2d3b4a6f8e9d2c1b3a4f5e6d7",
-                        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/e4SHPzMz/fabric-api-0.95.4%2B1.20.4.jar"
-                    }
-                },
-                {
-                    "id": "me.jellysquid.mods:sodium-fabric:0.5.8+mc1.20.4",
-                    "name": "Sodium",
-                    "type": "FabricMod",
-                    "required": true,
-                    "artifact": {
-                        "size": 1475511,
-                        "MD5": "f7e8d9c0b1a2e3f4d5c6b7a8d9e0f1c2",
-                        "url": "https://cdn.modrinth.com/data/AANobbMI/versions/4OZL6q9h/sodium-fabric-mc1.20.4-0.5.8.jar"
+                        "size": 4450992,
+                        "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
+                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
                     }
                 }
             ]

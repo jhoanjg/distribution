@@ -3,7 +3,7 @@
     "discord": {
         "clientId": "385581240906022916",
         "smallImageText": "Odyssey Launcher",
-        "smallImageKey": "SealCircle"
+        "smallImageKey": "seal-circle"
     },
     "java": {
         "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
@@ -27,13 +27,83 @@
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.minecraftforge:forge:1.11.2-13.20.1.2429",
-                    "name": "Minecraft Forge",
-                    "type": "ForgeHosted",
+                    "id": "net.fabricmc:fabric-loader:0.15.6",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "required": true,
                     "artifact": {
-                        "size": 4450992,
-                        "MD5": "3fcc9b0104f0261397d3cc897e55a1c5",
-                        "url": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/1.11.2-13.20.1.2429/forge-1.11.2-13.20.1.2429-universal.jar"
+                        "size": 1196222,
+                        "MD5": "a43d5a142246801343b6cedef1c102c4",
+                        "url": "https://meta.fabricmc.net/v2/versions/loader/1.20.4/0.15.6/1.20.4/jar"
+                    },
+                    "versionManifest": {
+                        "id": "fabric-loader-0.15.6-1.20.4",
+                        "inheritsFrom": "1.20.4",
+                        "releaseTime": "2024-02-13T12:00:00+00:00",
+                        "time": "2024-02-13T12:00:00+00:00",
+                        "type": "release",
+                        "mainClass": "net.fabricmc.loader.impl.launch.knot.KnotClient",
+                        "arguments": {
+                            "game": []
+                        },
+                        "libraries": [
+                            {
+                                "name": "net.fabricmc:tiny-mappings-parser:0.3.0+build.17",
+                                "url": "https://maven.fabricmc.net/"
+                            },
+                            {
+                                "name": "net.fabricmc:sponge-mixin:0.12.5+mixin.0.8.5",
+                                "url": "https://maven.fabricmc.net/"
+                            },
+                            {
+                                "name": "net.fabricmc:tiny-remapper:0.8.2",
+                                "url": "https://maven.fabricmc.net/"
+                            },
+                            {
+                                "name": "net.fabricmc:access-widener:2.1.0",
+                                "url": "https://maven.fabricmc.net/"
+                            },
+                            {
+                                "name": "org.ow2.asm:asm:9.5",
+                                "url": "https://maven.fabricmc.net/"
+                            },
+                            {
+                                "name": "org.ow2.asm:asm-analysis:9.5",
+                                "url": "https://maven.fabricmc.net/"
+                            },
+                            {
+                                "name": "org.ow2.asm:asm-commons:9.5",
+                                "url": "https://maven.fabricmc.net/"
+                            },
+                            {
+                                "name": "org.ow2.asm:asm-tree:9.5",
+                                "url": "https://maven.fabricmc.net/"
+                            },
+                            {
+                                "name": "org.ow2.asm:asm-util:9.5",
+                                "url": "https://maven.fabricmc.net/"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "id": "net.fabricmc.fabric-api:fabric-api:0.95.4+1.20.4",
+                    "name": "Fabric API",
+                    "type": "FabricMod",
+                    "required": true,
+                    "artifact": {
+                        "path": "app/assets/mods/fabric-api-0.95.4+1.20.4.jar",
+                        "local": true
+                    }
+                },
+                {
+                    "id": "me.jellysquid.mods:sodium-fabric:0.5.8+mc1.20.4",
+                    "name": "Sodium",
+                    "type": "FabricMod",
+                    "required": true,
+                    "artifact": {
+                        "path": "app/assets/mods/sodium-fabric-mc1.20.4-0.5.8.jar",
+                        "local": true
                     }
                 }
             ]

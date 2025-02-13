@@ -1,0 +1,42 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "385581240906022916",
+        "smallImageText": "Mi Servidor",
+        "smallImageKey": "mi-servidor-icon"
+    },
+    "java": {
+        "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
+    },
+    "rss": "https://minoticias.com/feed",
+    "servers": [
+        {
+            "id": "Demo",
+            "name": "Demo (Minecraft 1.20.4)",
+            "description": "Demo Running Minecraft 1.20.4 (Fabric v0.15.6)",
+            "icon": "https://miservidor.com/assets/server-icon.png",
+            "version": "1.0.0",
+            "address": "play.miservidor.com",
+            "minecraftVersion": "1.20.4",
+            "discord": {
+                "shortId": "Demo",
+                "largeImageText": "Demo Server",
+                "largeImageKey": "demo-large"
+            },
+            "mainServer": false,
+            "autoconnect": false,
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.15.6",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "artifact": {
+                        "size": 1196222,
+                        "MD5": "a43d5a142246801343b6cedef1c102c4",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.6/fabric-loader-0.15.6.jar"
+                    }
+                }
+            ]
+        }
+    ]
+}
